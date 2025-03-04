@@ -96,12 +96,6 @@ We evaluated and compared multiple models:
 - **Stacking Ensemble (XGBoost, LightGBM, Gradient Boosting, MLP)** — *95.49% accuracy*  
 - **Voting Classifier (XGBoost, LightGBM, Gradient Boosting)** — **⭐ 95.75% accuracy (Best)**
 
-  ## Confusion Matrix - Voting Classifier
-![Voting Classifier Confusion Matrix]("Screenshot 2025-03-04 220435.png")
-
-## Confusion Matrix - Stacking Classifier
-![Stacking Classifier Confusion Matrix]("")
-
 
 ### 🔹 Model Evaluation  
 - Performance measured using **Accuracy**, **Classification Report**, and **Confusion Matrix**.  
