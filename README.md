@@ -79,3 +79,61 @@ This dataset enables:
 
 > 🔗 **Dataset Source:** [Students Mental Health Assessments](https://www.kaggle.com/datasets/sonia22222/students-mental-health-assessments)
 
+## ⚙️ Solution Approach  
+
+### 🔹 Data Preprocessing  
+- Handling missing values  
+- Encoding categorical variables  
+- Scaling numerical features using **StandardScaler**  
+- Balancing the dataset using **SMOTE** to address class imbalance  
+
+### 🔹 Model Building  
+We evaluated and compared multiple models:  
+- **XGBoost** — *94.67% accuracy*  
+- **LightGBM** — *95.24% accuracy*  
+- **MLP Classifier** — *93.71% accuracy*  
+- **Gradient Boosting** — *94.54% accuracy*  
+- **Stacking Ensemble (XGBoost, LightGBM, Gradient Boosting, MLP)** — *95.49% accuracy*  
+- **Voting Classifier (XGBoost, LightGBM, Gradient Boosting)** — **⭐ 95.75% accuracy (Best)**  
+
+### 🔹 Model Evaluation  
+- Performance measured using **Accuracy**, **Classification Report**, and **Confusion Matrix**.  
+- The **Voting Classifier** on **XGBoost, LightGBM, and Gradient Boosting** achieved the **highest accuracy of 95.75%**, outperforming all other models, including the **Deep Learning Hybrid Model (MLP)**.
+
+---
+
+## 🌟 Unique Selling Points (USP)  
+
+**Exceptional Accuracy:** Achieved **95.75%** with ensemble learning.  
+**Proactive Mental Health Detection:** Early identification of mental health risks.  
+**Real-Time Predictions:** User-friendly system for instant results.  
+**Personalized Mental Health Insights:** Understanding emotional trends and stress triggers.  
+**Tailored Recommendations:** Including self-care tips, counseling services, and professional support.  
+**AI-Powered Chat Support:** Interactive guidance and mental health resources.  
+**Scalability:** Ready to integrate into educational platforms for widespread use.  
+
+---
+
+## Results  
+
+| Model                          | Accuracy (%) |
+|---------------------------------|--------------|
+| XGBoost                        | 94.67        |
+| LightGBM                       | 95.24        |
+| MLP Classifier (Deep Learning) | 93.71        |
+| Gradient Boosting              | 94.54        |
+| Stacking Ensemble              | 95.49        |
+| **Voting Classifier**          | **95.75**    |
+
+---
+
+## 🏆 Outcome  
+
+This system allows educational institutions to:  
+ Detect mental health concerns early.  
+ Offer proactive, personalized mental health support.  
+ Minimize severe mental health crises.  
+ Enhance students’ academic performance through emotional well-being.
+
+---
+
