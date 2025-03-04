@@ -97,10 +97,10 @@ We evaluated and compared multiple models:
 - **Voting Classifier (XGBoost, LightGBM, Gradient Boosting)** — **⭐ 95.75% accuracy (Best)**
 
   ## Confusion Matrix - Voting Classifier
-![Voting Classifier Confusion Matrix]("C:\Users\lenovo\OneDrive\Pictures\Screenshots\Screenshot 2025-03-04 220435.png")
+![Voting Classifier Confusion Matrix]("Screenshot 2025-03-04 220435.png")
 
 ## Confusion Matrix - Stacking Classifier
-![Stacking Classifier Confusion Matrix]("C:\Users\lenovo\OneDrive\Pictures\Screenshots\Screenshot 2025-03-04 220812.png")
+![Stacking Classifier Confusion Matrix]("")
 
 
 ### 🔹 Model Evaluation  
