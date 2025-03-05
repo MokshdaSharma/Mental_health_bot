@@ -139,10 +139,10 @@ This system allows educational institutions to:
 ---
 
 ## Description of the uploaded files 
-**NeuroNest_Model.py :** This is the main model which needs to be done to get the required outcome.
-**EDA_MoswlSwlwction.ipynb :** This contains all the data preprocessing steps along with tested models.
-**Model_POC.ipynb :** This contains the proof of concept of the final model.
-**anxiety_voting_model.pkl, depression_voting_model.pkl, stress_voting_model :** These are the models saved.
-**students_mental_health_survey.csv :** This is the dataset we took into consideration.
+- **NeuroNest_Model.py :** This is the main model which needs to be done to get the required outcome.
+- **EDA_MoswlSwlwction.ipynb :** This contains all the data preprocessing steps along with tested models.
+- **Model_POC.ipynb :** This contains the proof of concept of the final model.
+- **anxiety_voting_model.pkl, depression_voting_model.pkl, stress_voting_model :** These are the models saved.
+- **students_mental_health_survey.csv :** This is the dataset we took into consideration.
 
 
