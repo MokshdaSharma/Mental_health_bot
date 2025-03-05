@@ -131,10 +131,18 @@ We evaluated and compared multiple models:
 ## 🏆 Outcome  
 
 This system allows educational institutions to:  
- Detect mental health concerns early.  
- Offer proactive, personalized mental health support.  
- Minimize severe mental health crises.  
- Enhance students’ academic performance through emotional well-being.
+- Detect mental health concerns early.  
+- Offer proactive, personalized mental health support.  
+- Minimize severe mental health crises.  
+- Enhance students’ academic performance through emotional well-being.
 
 ---
+
+## Description of the uploaded files 
+#NeuroNest_Model.py : This is the main model which needs to be done to get the required outcome.
+#EDA_MoswlSwlwction.ipynb : This contains all the data preprocessing steps along with tested models.
+#Model_POC.ipynb : This contains the proof of concept of the final model.
+#anxiety_voting_model.pkl, depression_voting_model.pkl, stress_voting_model : These are the models saved.
+#students_mental_health_survey.csv : This is the dataset we took into consideration.
+
 
