@@ -11,3 +11,5 @@ imbalanced-learn
 lightgbm
 transformers
 torch
+peft
+language_tool_python
